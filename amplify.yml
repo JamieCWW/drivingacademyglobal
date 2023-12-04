@@ -1,0 +1,15 @@
+version: 0.1
+backend:
+  phases:
+    preBuild:
+      commands:
+        - nvm install 18.17.0
+        - nvm use 18.17.0
+        - yarn install
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - nvm install 18.17.0
+        - nvm use 18.17.0
+        - yarn install
