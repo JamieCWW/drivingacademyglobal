@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "HGV Driver Training",
+    "Types": ["HGV", "Experienced", "Beginner"],
+    "LandingDescription": "Enhance HGV driver safety with our specialized courses, minimizing risks and emphasizing key skills. Tailored for optimal development, our program prioritizes safety, security, and eco-friendly practices. Conclude with a certificate, showcasing your commitment to excellence. Elevate your company's reputation with our concise LGV Driver Awareness course, shaping responsible and professional drivers."
+  },
+  {
+    "Name": "Defensive Driving Course",
+    "Types": ["Defensive", "Experienced"],
+    "LandingDescription": "Enhance safety with our hazard-focused course, employing defensive driving techniques. Ideal for pharmaceutical, petrochemical, and construction industries, it covers safety protocols and compliance for effective risk reduction."
+  },
+  {
+    "Name": "Hostile Driver Training",
+    "Types": ["Experienced", "Beginner"],
+    "LandingDescription": "Mitigate global risks with our specialized hostile environment driver training. Tailored for security professionals, government officials, and corporate executives, the course covers defensive driving, emergency skills, evasive techniques, and close protection tactical driving. Ideal for those operating in unstable regions, it ensures participants are well-equipped to navigate potential threats."
+  },
+  {
+    "Name": "Towing Course",
+    "Types": ["Beginner"],
+    "LandingDescription": "Ensure compliance with towing regulations through our comprehensive training course. Aligned with the Driving At Work Act, this program addresses the Corporate Manslaughter Act, mitigating the risk of negligence-related court actions. Phase 1 focuses on assessing and training current drivers towing vehicles for their employer, emphasizing Health & Safety liability. In Phase 2, we cover cars or light vans with or without trailers, considering the maximum authorized mass (MAM). Training occurs in customer vehicles, and our qualified male and female instructors prioritize effective communication. Bookings can be made via telephone or email, formalized by client confirmation and followed by detailed joining instructions."
+  }
+]
