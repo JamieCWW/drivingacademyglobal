@@ -1,17 +1,24 @@
-version: 1
 frontend:
   phases:
     preBuild:
       commands:
-        - nvm install 18.17.0
+        - nvm install 14.17.0
+        - nvm use 14.17.0
         - npm install -g yarn@1.22.0
-    build:
-      commands:
-        - yarn build
-  artifacts:
-    baseDirectory: out
-    files:
-      - "**/*"
+    artifacts:
+      baseDirectory: /
+      files:
+        - "**/*"
+  build:
+    commands:
+      - echo "Building started on `date`"
+      - npx tsc
   cache:
     paths:
       - "node_modules/**/*"
+preBuild:
+  commands:
+    - echo "Installing source NPM dependencies"
+    - nvm install 14.17.0
+    - nvm use 14.17.0
+    - npm install
