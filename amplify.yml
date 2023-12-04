@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - nvm install 18.17.0
+        - npm install -g yarn@1.22.0
     build:
       commands:
         - yarn build
