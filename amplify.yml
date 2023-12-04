@@ -1,17 +1,10 @@
 version: 1
 frontend:
-  phases:
-    preBuild:
-      commands:
-        - nvm install 18.17.0
-        - npm install -g yarn@1.22.0
-    build:
-      commands:
-        - yarn build
+  preBuild:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
   artifacts:
-    baseDirectory: out
-    files:
-      - "**/*"
-  cache:
-    paths:
-      - "node_modules/**/*"
+    baseDirectory: .amplify-hosting
