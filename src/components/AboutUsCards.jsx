@@ -3,12 +3,11 @@ import React from "react";
 import Image from "next/image";
 
 // Correct import
-// eslint-disable-next-line import/no-unresolved
-import drivingInstructorImage from "../../public/images/drivinginstructor.jpg";
 import driver from "../../public/images/driver.jpg";
 import globe from "../../public/images/globe.jpg";
+import drivinginstructor from "../../public/images/drivinginstructor.jpg";
 
-const iconVariant = [driver, globe, drivingInstructorImage];
+const iconVariant = [driver, globe, drivinginstructor];
 
 export function AboutUsCards({ title, descriptions, iconIndex }) {
   return (
